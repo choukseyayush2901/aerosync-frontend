@@ -90,7 +90,7 @@ export default function Home() {
         {/* ✨ LEFT PANEL */}
         <div className="w-full md:w-1/3 p-8 text-white flex flex-col relative overflow-hidden bg-white/5 border-r border-white/10">
           <h1 className="text-3xl font-bold mb-2 z-10 drop-shadow-md">
-            AeroSync ETL
+            AeroSync
           </h1>
           <p className="text-blue-100 text-sm mb-8 opacity-90 z-10">
             Real-time Air Quality Telemetry Engine
@@ -193,9 +193,8 @@ export default function Home() {
                   Awaiting Location...
                 </h2>
                 <p className="text-sm text-blue-100 opacity-90">
-                  Map par click kariye ya &apos;Locate Me&apos; dabaiye. Humara
-                  backend turant wahan ka pollution data fetch karke yahan
-                  dikhayega.
+                  Click Anywhere On The Map To Know The Exect Pollution Level Of
+                  That Location
                 </p>
               </div>
             )}
